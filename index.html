@@ -9,23 +9,36 @@
                                   (and take up the whole width
                                */
             }
+
             .container div {
                 border: 1px #ccc solid;
                 padding: 10px;
+            }
+
+            .box-1 {
+                flex: 1;
+            }
+            
+            .box-2 {
+                flex: 2;
+            }
+
+            .box-3 {
+                flex: 1;
             }
         </style>
     </head>
     <body>
         <div class="container">
-            <div>
+            <div class="box-1">
                 <h1>Box 1</h1>
                 <p>This is the content of Box 1.</p>
             </div>
-            <div>
+            <div class="box-2">
                 <h1>Box 2</h1>
                 <p>This the content of Box 2, which is longer than the contents of the other Boxes.</p>
             </div>
-            <div>
+            <div class="box-3">
                 <h1>Box 2</h1>
                 <p>This is the content of Box 3.</p>
             </div>
